@@ -1,0 +1,93 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-image: url('https://img.freepik.com/premium-photo/natural-japanese-recycled-paper-texture-background_118047-602.jpg?size=626&ext=jpg&ga=GA1.2.544982708.1682271032&semt=robertav1_2_sidr');
+  /* background-image: linear-gradient(#ff9a9e, #fad0c4);*/
+  border: 2px;
+}
+.ma-head {
+  text-align: center;
+  font-size: 60px;
+}
+.main-heading {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border-color: black;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.main-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.gallery-container {
+  display: flex;
+
+  flex-direction: column;
+  width: 85%;
+
+  margin-bottom: 34px;
+  max-width: 1140px;
+}
+
+.selected-image {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 220px;
+  margin-left: 50px;
+  width: 400px;
+  height: 400px;
+}
+.last-line {
+  font-weight: 700;
+  text-align: center;
+  color: navy;
+  font-style: italic;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+  text-decoration: underline;
+}
+
+.phot-img {
+  font-weight: bolder;
+  color: red;
+  text-align: center;
+}
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.thumbnails-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
